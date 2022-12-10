@@ -1,0 +1,7 @@
+baseURL = 'http://benjamin-philip.github.io/'
+languageCode = 'en-us'
+title = "Ben's Untitled blog"
+
+[module]
+[[module.imports]]
+    path = 'github.com/spf13/hyde'
