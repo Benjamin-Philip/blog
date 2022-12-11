@@ -1,6 +1,6 @@
 baseURL = 'https://benjamin-philip.github.io/blog/'
 languageCode = 'en-us'
-title = "Ben's Untitled blog"
+title = "Ben's Untitled Blog"
 
 [module]
 [[module.imports]]
