@@ -1,0 +1,14 @@
+# Copied from:
+#   https://github.com/vinibrsl/editorconfig-templates/blob/master/Markdown.editorconfig
+
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+indent_style = space
+
+[**/*.md]
+trim_trailing_whitespace = false
+indent_size = 2
+max_line_length = 80
