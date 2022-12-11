@@ -32,7 +32,7 @@ jobs:
         with:
           path: _vendor
           key: ${{ runner.os }}-go-${{ hashFiles('**/go.sum') }}
-          restore-key:
+          restore-keys:
             ${{ runner.os }}-go-
 
       # Probably redundant as both Hugo and Make take care of this
