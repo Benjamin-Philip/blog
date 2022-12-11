@@ -1,0 +1,51 @@
+name: Github Pages
+
+on:
+  push:
+    branches:
+      - master  # Set a branch that will trigger a deployment
+  pull_request:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          submodules: true  # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+
+      - name: Setup Go
+        uses: actions/setup-go@v3
+        with:
+          go-version: '^1.13.1'
+          
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'
+          # extended: true
+
+      - name: Cache Hugo modules
+        id: cache-hugo-mods
+        uses: actions/cache@v3
+        with:
+          path: _vendor
+          key: ${{ runner.os }}-go-${{ hashFiles('**/go.sum') }}
+          restore-key:
+            ${{ runner.os }}-go-
+
+      # Probably redundant as both Hugo and Make take care of this
+      - name: Vendor Hugo modules
+        if: steps.hugo-mods.outputs.cache-hit != 'true'
+        run: make _vendor
+
+      - name: Build
+        run: make
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        if: github.ref == 'refs/heads/main'
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public

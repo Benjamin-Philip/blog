@@ -6,10 +6,14 @@
 
 default: build
 
-server:
+server: _vendor
 	hugo server -D
 
-build:
-	hugo
+build: _vendor
+	hugo --minify
+
+# Get modules
+_vendor: go.mod go.sum
+	hugo mod vendor
 
 # end
