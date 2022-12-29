@@ -51,13 +51,8 @@ jobs:
           restore-keys:
             ${{ runner.os }}-go-
 
-      # Probably redundant as both Hugo and Make take care of this
-      - name: Vendor Hugo modules
-        if: steps.hugo-mods.outputs.cache-hit != 'true'
-        run: make _vendor
-
       - name: Build
-        run: make
+        run: make gh-pages
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
