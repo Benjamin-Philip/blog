@@ -4,5 +4,7 @@ github.com/Benjamin-Philip/burwell v0.0.0-20221223055430-682527928e06 h1:BB+wERr
 github.com/Benjamin-Philip/burwell v0.0.0-20221223055430-682527928e06/go.mod h1:2Yl8t3llLfh1LjuxIq9MOL5xW8j79vLXgbFECoCq2jE=
 github.com/Benjamin-Philip/burwell v0.0.0-20221223161746-e2040c7fbb6e h1:sLHvZajHUbaA5vt/mxUSCg1lZ7WrQ+e0I9rUnaqiBQY=
 github.com/Benjamin-Philip/burwell v0.0.0-20221223161746-e2040c7fbb6e/go.mod h1:2Yl8t3llLfh1LjuxIq9MOL5xW8j79vLXgbFECoCq2jE=
+github.com/Benjamin-Philip/burwell v0.0.0-20221229130111-3b25fd026193 h1:f4GwrQVQB7t5C/z4esk1av85elKoCDEc0K2OsD+9eh0=
+github.com/Benjamin-Philip/burwell v0.0.0-20221229130111-3b25fd026193/go.mod h1:2Yl8t3llLfh1LjuxIq9MOL5xW8j79vLXgbFECoCq2jE=
 github.com/spf13/hyde v1.1.0 h1:ZKOakmybNrsaUQCZsf/XwwGIp6NHjUuU3klBgVuoees=
 github.com/spf13/hyde v1.1.0/go.mod h1:CSmLWCbXXInaA5zAkwAQ0EbwpR7Pe74eSmDxdGspoCY=
