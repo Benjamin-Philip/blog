@@ -1,0 +1,60 @@
+#+title: How to Solve It: Introduction
+#+date: 2024-01-04
+#+tags: how-to-solve-it books maths
+
+* The Problem at Hand
+
+I recently started reading "How to Solve It" by Polya, joining the many
+generations of mathematicians to do so before me. Like the vast majority of
+those who have read this book, I'm reading it as a student. Unlike the vast
+majority, I'm a highschool student.
+
+Being an Indian, with an ambition to study Computer Science, I joined the [[https://en.wikipedia.org/wiki/Joint_Entrance_Examination][JEE]]
+rat race about 7 months ago. Over the months, I've come to neglect the subject
+which was once my pride and joy - Maths. To make matters worse, I've gone with
+[[https://srichaitanya.net/c-120-program/][Chait]] which is teaching Maths in the strangest order I've ever seen. They
+started with Advanced Trigonometry, without even doing functions.
+
+In classic trig style, the problems were very abstract. A common question was
+something on the lines of if $\tan \theta = ...$ then find $\sin \frac{\theta}{2} + ...$.
+The answer typically came from applying the formula we just learnt, but in some
+twisted way which I can't fathom anyone thinking of. Additionally I had another
+problem: the "formulae" were just given to me, without any insight from where it
+came.
+
+I, being the idiot who derived all (well most) of his tools from the basics,
+even during exams, wanted to also know the derivation for all the formulae I
+used. I quenched that thirst by reading [[https://books.google.co.in/books/about/Algebra_and_Trigonometry.html?id=uJqaBAAAQBAJ][Algebra and Trigonometry]] by Stewart,
+Redlin and Watson. It definitely helped make the identities a lot more useful.
+Yet, despite my new found insight, I was unable to solve the problems in the
+exams.
+
+I couldn't tell /why/ we were doing a particular, step. Unlike many Physics,
+Geometry, and other practical problems, there wasn't any deductive, systematic
+way of going about the question. It was very similar to my initial struggles
+with quadratic algebra. We just did steps that you /felt/ were in the right
+direction. And if by bad luck your gut feel was wrong, you've just lost some
+part of your life for nothing. Repeat the same struggles for Algebra, Calculus,
+and Linear Algebra for few months, and I had given up on Maths all together.
+
+I was very, very good at applying maths in a problem with concrete relations,
+puzzles which were very easy to intuit the solution to. But I was very weak at
+this sort gut-feel, no system, Maths. Strong at the /science/ of it, but weak at
+the /art/.
+
+Reading "How to Solve It" is my attempt to correct this wrong, and my neglect of
+Maths.
+
+* What I am going to do
+
+Since I am almost certainly going to forget a good part of what I read, I
+thought it would be a good idea to make notes of what I read. To get gist of
+things so that when I want to refer something in the future, I can easily find
+the relevant bit and re-read if necessary.
+
+It also then occurred to me to publish these notes in case someone else finds
+them useful. Maybe publish them will come in use to me.
+
+I am going to split these notes according to part, and splitting each part if
+necessary. I'll try to make a short summary of whatever is important, and stay
+as concise and to the point as possible.
